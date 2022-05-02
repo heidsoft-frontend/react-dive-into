@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 const StateTutorial = ()=>{
-    let counter = 0;
+    const [counter,setCounter] = useState(0);
     const increment = ()=>{
-        counter = counter+1;
+        setCounter(counter+1);
         console.log(counter);
     }
     return <div>{counter} <button onClick={increment}>Increment</button> </div>;
