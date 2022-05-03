@@ -1,4 +1,4 @@
-import { useReducer, useState } from "react";
+import { useReducer } from "react";
 
 // 定义reducer行为
 // 这样的函数称之为reducer，是因为这种函数与被传入 
