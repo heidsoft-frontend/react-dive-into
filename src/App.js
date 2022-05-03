@@ -5,15 +5,17 @@ import ReducerTutorial from './ReducerTutorial/ReducerTutorial';
 import ReducerTutorialV2 from './ReducerTutorial/ReducerTutorialV2';
 import EffectTutorial from './UseEffect/EffectTutorial';
 import RefTutorial from './UseRef/RefTutorial';
+import LayoutEffectTutorial from './UseLayoutEffect/LayoutEffectTutorial';
 function App() {
   return (
     <div className="App">
-       <StateTutorial></StateTutorial>
+       {/* <StateTutorial></StateTutorial>
        <StateTutorialV2></StateTutorialV2>
        <ReducerTutorial></ReducerTutorial>
        <ReducerTutorialV2></ReducerTutorialV2>
        <EffectTutorial></EffectTutorial>
-       <RefTutorial></RefTutorial>
+       <RefTutorial></RefTutorial> */}
+       <LayoutEffectTutorial></LayoutEffectTutorial>
     </div>
   );
 }
